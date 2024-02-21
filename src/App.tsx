@@ -1,11 +1,12 @@
-import './App.css'
-
-function App() {
+export default function App() {
   return (
-    <div className='bg-orange-500 w-full'>
-      <div className='bg-orange-100 w-full ...'>Container</div>
+    <div className="bg-orange-100 min-h-screen w-full grid place-content-center">
+      <div
+        className="
+      "
+      >
+        Container
+      </div>
     </div>
-  )
+  );
 }
-
-export default App
